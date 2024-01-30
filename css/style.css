@@ -1,0 +1,178 @@
+body {
+    background-color: #240090;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+nav {
+    display: flex;
+    background-color: #282828;
+    color: white;
+    padding: 5px;
+    justify-content: end;
+    width: 100%;
+}
+
+nav:hover {
+    background-color: rgb(129, 129, 129);
+    color: lightgray;
+    text-shadow: -1px -1px 0 #c0c0c0, 1px -1px 0 #c0c0c0, -1px 1px 0 #c0c0c0, 1px 1px 0 #c0c0c0;
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer:hover {
+    background-color: rgb(159, 159, 159);
+    color: lightgray;
+    text-shadow: -1px -1px 0 #c0c0c0, 1px -1px 0 #c0c0c0, -1px 1px 0 #c0c0c0, 1px 1px 0 #c0c0c0;
+}
+
+section.banner {
+    display: flex;
+    background-image: banner;
+    align-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+section.Name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px;
+    background-color: #240090;
+    font-family: 'IBM Plex Serif', sans-serif;
+    font-size: medium;
+}
+
+.banner-text {
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.pfp {
+    border-radius: 50%;
+}
+
+.blehh {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+}
+
+.sadCat {
+    position: absolute;
+    top: 600px;
+    right: 100px;
+}
+
+.profile {
+    justify-content: space-between;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #282828;
+}
+
+div.language_card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    padding: 20px;
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: large;
+    border: 3px solid white;
+}
+
+div.card_content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div.experience_card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    padding: 20px;
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: large;
+    border: 3px solid white;
+}
+
+div.skills_card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    padding: 20px;
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: large;
+    border: 3px solid white;
+}
+
+.chesstronics {
+    color: #fff;
+}
+
+.RNL {
+    color: #fff;
+}
+
+link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+link:hover {
+    background-color: rgb(159, 159, 159);
+    color: lightgray;
+    text-shadow: -1px -1px 0 #c0c0c0, 1px -1px 0 #c0c0c0, -1px 1px 0 #c0c0c0, 1px 1px 0 #c0c0c0;
+}
+
+hr {
+    border: none;
+    background-color: black;
+}
+
+.card {
+    background-color: #282828;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    font-family: 'Roboto Slab', 'Josefin Slab', sans-serif;
+}
+
+.input {
+    font-size: large;
+    text-align: center;
+}
+
+.submit {
+    margin-top: 10px;
+}
